@@ -14,7 +14,7 @@
 body {
     background-color: #121212;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Edu TAS Beginner';
 }
 
@@ -30,7 +30,7 @@ body {
     display: flex;
     
     font-family: "Aborelo";
-    font-size: 10px;
+    font-size: 80px;
 } #header-text {
     margin-left: 20px;
 } #break { 
@@ -49,7 +49,7 @@ body {
 /* INTRO */
 #intro-1 {
     font-family: 'Edu TAS Beginner';
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
 } #intro-2 {
     margin-left: 300px;
@@ -64,7 +64,7 @@ body {
     margin-left: 20px;
     
     font-family: 'Edu TAS Beginner';
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
 } #idea-link {
     font-family: 'Edu TAS Beginner';
@@ -93,10 +93,12 @@ body {
 } #b-Title {
     margin-left: 20px;
 
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
 } #devTitle {
     height: 50px;
+
+    font-weight: 30px;
 
     margin-left: 20px;
     margin-top: 10px;
@@ -126,7 +128,7 @@ body {
 #software {
     font-family: 'Edu TAS Beginner';
 } #s-Title {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
 } #s-Para {
     margin-left: 200px;
