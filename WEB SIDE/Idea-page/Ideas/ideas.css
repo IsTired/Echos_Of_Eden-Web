@@ -1,0 +1,127 @@
+/* FONTS */
+.aboreto-regular {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} .edu-tas-beginner {
+    font-family: "Edu TAS Beginner";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+/* MAIN */
+body {
+    background-color: #121212;
+    color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans JP';
+}
+
+
+/* CLASS */
+
+
+
+/* DIVS */
+/* TOP HEADER */
+#header {
+    position: sticky; 
+    display: flex;
+    
+    font-family: "Aborelo";
+    font-size: 140px;
+} #header-text {
+    margin-left: 20px;
+} #break { 
+    height: 110px; 
+} #header-img {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* centre */
+#main {
+    font-family: 'Edu TAS Beginner';
+    
+} #Title-H {
+    font-size: 90px;
+    font-weight: 700;
+} #Title-B {
+    font-size: 60px;
+    font-weight: 700;
+} #Para {
+    font-size: 45px;
+    font-weight: 400;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+
+
+
+/* BOTTOM HEADER */
+#bottom {
+    top: 700px;
+
+    border-color: red;
+    border-radius: 5px;
+} #header-buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 2000px;
+} #header-discord-button {
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,0) ;
+
+    position: relative;
+} #header-twitter-button {
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,0) ;
+
+    position: relative;
+}
+/* INFO */
+#info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 2000px;
+
+    font-family: 'Playfair Display';
+} #info-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+    left: 700px;
+    top: -48px;
+} #info-body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 40px;
+    left: -150px;
+
+    font-size: 30px;
+
+    width: 1400px;
+    margin-bottom:90px;
+}
+
+

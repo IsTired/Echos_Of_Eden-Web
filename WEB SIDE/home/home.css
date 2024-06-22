@@ -1,0 +1,193 @@
+/* FONTS */
+.aboreto-regular {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} .edu-tas-beginner {
+    font-family: "Edu TAS Beginner";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+/* MAIN */
+body {
+    background-color: #121212;
+    color: white;
+    font-size: 50px;
+    font-family: 'Edu TAS Beginner';
+}
+
+
+/* CLASS */
+
+
+
+/* DIVS */
+/* TOP HEADER */
+#header {
+    position: sticky; 
+    display: flex;
+    
+    font-family: "Aborelo";
+    font-size: 140px;
+} #header-text {
+    margin-left: 20px;
+} #break { 
+    height: 110px; 
+} #header-img {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* INTRO */
+#intro-1 {
+    font-family: 'Edu TAS Beginner';
+    font-size: 80px;
+    font-weight: 700;
+} #intro-2 {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+
+/* Idea */
+#Idea {
+    margin-left: 20px;
+    
+    font-family: 'Edu TAS Beginner';
+    font-size: 80px;
+    font-weight: 700;
+} #idea-link {
+    font-family: 'Edu TAS Beginner';
+}
+
+#log {
+    display: inline-block;
+}
+
+#a {
+    width: 400px;
+    display: inline-block;
+}
+#b {
+    width: 800px;
+    display: inline-block;
+}
+
+
+
+
+
+/* BLOG */
+#blog { 
+    font-family: "Edu TAS Beginner";
+} #b-Title {
+    margin-left: 20px;
+
+    font-size: 80px;
+    font-weight: 700;
+} #devTitle {
+    height: 50px;
+
+    margin-left: 20px;
+    margin-top: 10px;
+
+    display: flex;
+
+    font-family: "Edu TAS Beginner";
+}
+
+#devBoxes {
+    display:inline-flex;
+} #box-0 {
+    margin-top: 30px;
+    margin-left: 15px;
+} #box-1 {
+    margin-top: 30px;
+    margin-left: 40px;
+} #box-2 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+
+
+/* SOFTWARE */
+#software {
+    font-family: 'Edu TAS Beginner';
+} #s-Title {
+    font-size: 80px;
+    font-weight: 700;
+} #s-Para {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+
+/* BOTTOM HEADER */
+#bottom {
+    top: 700px;
+
+    border-color: red;
+    border-radius: 5px;
+} #header-buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 100px;
+} #header-discord-button {
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,0) ;
+
+    position: relative;
+} #header-twitter-button {
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,0) ;
+
+    position: relative;
+}
+/* INFO */
+#info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+
+    font-family: 'Playfair Display';
+} #info-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+    left: 700px;
+    top: -48px;
+} #info-body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 40px;
+    left: -150px;
+
+    font-size: 30px;
+
+    width: 1400px;
+    margin-bottom:90px;
+}
