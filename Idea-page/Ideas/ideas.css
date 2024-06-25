@@ -1,21 +1,45 @@
-/* FONTS */
-.aboreto-regular {
-    font-family: "Aboreto", system-ui;
-    font-weight: 400;
-    font-style: normal;
-} .edu-tas-beginner {
-    font-family: "Edu TAS Beginner";
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
+.blogbox {
+    width: 425px;
+    height: 225px;
+    border: 1px;
+    border-radius: 20px;
 
-/* MAIN */
-body {
-    background-color: #121212;
+    background-color: black;
+    text-align: center;
+
+    transition: transform ease 300ms;
+} .blogbox:hover {
+    transform: translate(0, -10px);
+    background-color: rgb(55, 55, 56);
     color: white;
-    font-size: 50px;
-    font-family: 'Noto Sans JP';
+}
+
+.box {
+    width: 200px;
+    height: 40px;
+    border: 1px;
+    border-radius: 20px;
+
+    background-color: black;
+    text-align: center;
+
+    transition: transform ease 300ms;
+} .box:hover {
+    transform: translate(0, -10px);
+    background-color: rgb(55, 55, 56);
+    color: white;
+}
+
+.home {
+    margin-top: 3px;
+    width: 70px;
+    height: 70px;
+    
+    text-align: center;
+
+    transition: transform ease 300ms;
+} .home:hover {
+    transform: translate(0, -5px);
 }
 
 
@@ -30,17 +54,12 @@ body {
     display: flex;
     
     font-family: "Aborelo";
-    font-size: 140px;
+    font-size: 80px;
 } #header-text {
-    margin-left: 20px;
+    margin-left: 10px;
 } #break { 
     height: 110px; 
-} #header-img {
-    margin-top: 10px;
-}
-
-
-
+} 
 
 
 
@@ -50,13 +69,12 @@ body {
     font-family: 'Edu TAS Beginner';
     
 } #Title-H {
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 700;
 } #Title-B {
-    font-size: 60px;
+    font-size: 28px;
     font-weight: 700;
 } #Para {
-    font-size: 45px;
     font-weight: 400;
     
     margin-left: 200px;
@@ -80,7 +98,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    top: 2000px;
+    top: 200px;
 } #header-discord-button {
     background-color: rgba(255,255,255,0);
     border-color: rgba(255,255,255,0) ;
@@ -92,36 +110,3 @@ body {
 
     position: relative;
 }
-/* INFO */
-#info {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 2000px;
-
-    font-family: 'Playfair Display';
-} #info-head {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-
-    left: 700px;
-    top: -48px;
-} #info-body {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    top: 40px;
-    left: -150px;
-
-    font-size: 30px;
-
-    width: 1400px;
-    margin-bottom:90px;
-}
-
-

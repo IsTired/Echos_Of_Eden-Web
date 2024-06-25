@@ -18,8 +18,8 @@
 
     <style>
         .blogbox {
-            width: 750px;
-            height: 450px;
+            width: 425px;
+            height: 225px;
             border: 1px;
             border-radius: 20px;
 
@@ -33,9 +33,26 @@
             color: white;
         }
 
+        .box {
+            width: 200px;
+            height: 40px;
+            border: 1px;
+            border-radius: 20px;
+
+            background-color: black;
+            text-align: center;
+
+            transition: transform ease 300ms;
+        } .box:hover {
+            transform: translate(0, -10px);
+            background-color: rgb(55, 55, 56);
+            color: white;
+        }
+
         .home {
-            width: 90px;
-            height: 90px;
+            margin-top: 3px;
+            width: 70px;
+            height: 70px;
             
             text-align: center;
 
@@ -52,8 +69,8 @@
 <!-- HEADER -->
 <div id="header">
     <div id="header-text">Echos Of Eden </div>
-    <div id="header-img"><img src="/Logs/.images/Echos OF Eden.png" width="135px"></div>
-    <div id="header-home-button" class="home" onclick="location.href='/home/home.html'"><img src="/home/.images/home.png" width="90px" class="home"></div>
+    <div id="header-img"><img src="/Echos_Of_Eden-Web/home/images/Echos OF Eden.png" width="90px"></div>
+    <div id="header-home-button" class="home" onclick="location.href='/Echos_Of_Eden-Web/home/home.html'"><img src="/Echos_Of_Eden-Web/home/images/home.png" height="10px" class="home"></div>
 </div>
 
 <div id="break"></div>
@@ -83,7 +100,7 @@
         </div>
         <div id="scroll-box">
             <center>
-                <img src="/Idea-page/.images/Glock-Maya-1.png" width="1000px">
+                <img src="/Echos_Of_Eden/Idea-page/images/Glock-Maya-1.png" width="1000px">
             </center>
         </div>
 
@@ -158,15 +175,11 @@
 <div id="bottom">
     <div id="header-buttons">
         <button id="header-discord-button" onclick="window.open('https://discord.gg/hhD94yfT7z')">
-        <img src="/Logs/.images/discord.png" width="70px">
+            <img src="/Echos_Of_Eden-Web/Idea-page/images/discord.png" width="50px">
         </button>
         <button id="header-twitter-button" onclick="window.open('https://x.com')">
-        <img src="/Logs/.images/twitter-64.png" width="70px"></button>
-    </div>
-    <div id="info">
-        <h0 id="info-head">INFORMATION</h0>
-        <br>
-        <div id="info-body">Everything shown on this website is my own work, everything that is not will be referanced appropriatly</div>
+            <img src="/Echos_Of_Eden-Web/Idea-page/images/twitter-64.png" width="50px">
+        </button>
     </div>
 </div>
 </body>
