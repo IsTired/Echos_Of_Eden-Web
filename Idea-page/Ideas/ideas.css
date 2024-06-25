@@ -1,47 +1,21 @@
-.blogbox {
-    width: 425px;
-    height: 225px;
-    border: 1px;
-    border-radius: 20px;
+.aboreto-regular {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} .edu-tas-beginner {
+    font-family: "Edu TAS Beginner";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 
-    background-color: black;
-    text-align: center;
-
-    transition: transform ease 300ms;
-} .blogbox:hover {
-    transform: translate(0, -10px);
-    background-color: rgb(55, 55, 56);
+/* MAIN */
+body {
+    background-color: #121212;
     color: white;
+    font-size: 25px;
+    font-family: 'Edu TAS Beginner';
 }
-
-.box {
-    width: 200px;
-    height: 40px;
-    border: 1px;
-    border-radius: 20px;
-
-    background-color: black;
-    text-align: center;
-
-    transition: transform ease 300ms;
-} .box:hover {
-    transform: translate(0, -10px);
-    background-color: rgb(55, 55, 56);
-    color: white;
-}
-
-.home {
-    margin-top: 3px;
-    width: 70px;
-    height: 70px;
-    
-    text-align: center;
-
-    transition: transform ease 300ms;
-} .home:hover {
-    transform: translate(0, -5px);
-}
-
 
 /* CLASS */
 
