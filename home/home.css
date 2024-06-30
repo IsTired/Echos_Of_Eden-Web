@@ -140,34 +140,3 @@ body {
 
     position: relative;
 }
-/* INFO */
-#info {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 100px;
-
-    font-family: 'Playfair Display';
-} #info-head {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-
-    left: 700px;
-    top: -48px;
-} #info-body {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    top: 40px;
-    left: -150px;
-
-    font-size: 30px;
-
-    width: 1400px;
-    margin-bottom:90px;
-}
